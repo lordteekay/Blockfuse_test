@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Blockfuse_test/tree/main/SectionB_Task3/task-manager/static/css/main.31d6cfe0.css",
+    "main.js": "/Blockfuse_test/tree/main/SectionB_Task3/task-manager/static/js/main.5a959645.js",
+    "index.html": "/Blockfuse_test/tree/main/SectionB_Task3/task-manager/index.html",
+    "main.5a959645.js.map": "/Blockfuse_test/tree/main/SectionB_Task3/task-manager/static/js/main.5a959645.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.5a959645.js"
+  ]
+}
