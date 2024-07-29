@@ -1,1 +1,10 @@
-xxxx
+1)How would you manage the application state in your SPA?
+I used the react usestate hook for managing the state of the components
+
+2)Describe how you would implement routing in the SPA?
+I used react router (now creatRoot) by installing react-router-dom and using ``` const root = createRoot(document.getElementById("root"));
+root.render(<App />);``` in the index.js file
+
+3)How would you handle form validation and error messages?
+
+I didn't inlcude the validation and error message in the app
