@@ -12,7 +12,7 @@ Step5: use node to run the program
 Step1: I created a react project
 Step2: I also created files name Tlist,Tform,Item,Index and App js files
 Step3: I ran the program with npm start to see if there were no errors in the project;
-
+### The solution is in the solution.txt file inside the folder
 Here's the end Result of the project
 <img width="1435" alt="Screen Shot 2024-07-29 at 12 37 02 PM" src="https://github.com/user-attachments/assets/01fb02f5-fd8e-468f-92dd-7012d3d92430">
 
