@@ -6,3 +6,11 @@ Step2: I find if the merged arrray is odd or even
 Note: The merge array was gotten from the concatenation of the array_1 and array_2
 Step3: I return the even or the odd number
 Step4: I passed the arguments to the mean function
+Step5: use node to run the program
+
+# The section B Question 3
+Step1: I created a react project
+Step2: I also created files name Tlist,Tform,Item,Index and App js files
+Step3: I ran the program with npm start to see if there were no errors in the project;
+
+
