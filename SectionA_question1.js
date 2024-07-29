@@ -15,14 +15,17 @@ function median(array_1, array_2) {
   console.log(middle_num);
   // To calculate if the merged array is even number or an odd number
   if (merged_Array.length % 2 !== 0) {
-    console.log(`Odd:${merged_Array[middle_num]}`);
+    // console.log(`Odd:${merged_Array[middle_num]}`);
+    return merged_Array[middle_num];
   } else {
-    console.log(
-      `even:${merged_Array[middle_num - 1] + merged_Array[middle_num]}`
-    ) / 2;
+    // console.log(
+    //   `even:${merged_Array[middle_num - 1] + merged_Array[middle_num]}`
+    // ) / 2;
+    return (merged_Array[middle_num - 1] + merged_Array[middle_num]) / 2;
   }
 }
 
 const array_1 = [76, 57, 19, 87, 62, 23, 87];
 const array_2 = [57, 10, 2, 40, 40, 35, 36, 59, 43, 7, 98, 90, 33, 11];
-median(array_1, array_2);
+const Median_Of_Two_Arrays = median(array_1, array_2);
+console.log(`The median of the two arrays is:${Median_Of_Two_Arrays}`);
