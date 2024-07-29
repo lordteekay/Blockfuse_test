@@ -11,8 +11,16 @@ function median(array_1, array_2) {
 
   // Finding the average number
 
-  const mid = Math.floor(merged_Array.length / 2);
-  console.log(mid);
+  const middle_num = Math.floor(merged_Array.length / 2);
+  console.log(middle_num);
+  // To calculate if the merged array is even number or an odd number
+  if (merged_Array.length % 2 !== 0) {
+    console.log(`Odd:${merged_Array[middle_num]}`);
+  } else {
+    console.log(
+      `even:${merged_Array[middle_num - 1] + merged_Array[middle_num]}`
+    ) / 2;
+  }
 }
 
 const array_1 = [76, 57, 19, 87, 62, 23, 87];
